@@ -8,11 +8,11 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
-from src.exception import Excception_handler
-from src.logger import logging
+from src.ML_project.exception import Excception_handler
+from src.ML_project.logger import logging
 import os
 
-from src.utils import save_object
+from src.ML_project.utils import save_object
 
 @dataclass
 class DataTransformationConfig:

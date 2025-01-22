@@ -5,7 +5,7 @@ import pickle
 import numpy as np 
 import pandas as pd
 import dill
-from src.exception import Excception_handler
+from src.ML_project.exception import Excception_handler
 
 def save_object(file_path, obj):
     try:
@@ -18,4 +18,3 @@ def save_object(file_path, obj):
 
     except Exception as e:
         raise Excception_handler(e, sys)
-
