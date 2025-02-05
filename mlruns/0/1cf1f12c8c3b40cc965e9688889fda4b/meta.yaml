@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/NAMAN/Desktop/ML-Project/mlruns/0/1cf1f12c8c3b40cc965e9688889fda4b/artifacts
+end_time: 1738784805060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1cf1f12c8c3b40cc965e9688889fda4b
+run_name: classy-boar-243
+run_uuid: 1cf1f12c8c3b40cc965e9688889fda4b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738784801099
+status: 3
+tags: []
+user_id: NAMAN

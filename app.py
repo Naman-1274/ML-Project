@@ -1,5 +1,5 @@
 from src.ML_project.logger import logging
-from src.ML_project.exception import CustomException
+from src.ML_project.exception import Excception_handler
 from src.ML_project.components.data_ingestion import DataIngestion
 from src.ML_project.components.data_ingestion import DataIngestionConfig
 from src.ML_project.components.data_transformation import DataTransformationConfig,DataTransformation
@@ -18,7 +18,7 @@ if __name__=="__main__":
 
         #data_transformation_config=DataTransformationConfig()
         data_transformation=DataTransformation()
-        train_arr,test_arr,_=data_transformation.initiate_data_transormation(train_data_path,test_data_path)
+        train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data_path,test_data_path)
 
         ## Model Training
 
@@ -27,4 +27,4 @@ if __name__=="__main__":
         
     except Exception as e:
         logging.info("Custom Exception")
-        raise CustomException(e,sys)
+        raise Excception_handler(e,sys)
